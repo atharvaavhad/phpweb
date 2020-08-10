@@ -1,0 +1,110 @@
+@media screen and (max-width: 1321px) {
+	.about{
+		text-align: center;
+		color: white;
+		background-color: black;
+		font-size: 100px;
+	}
+	.home{
+		background-color: rgba(0,0,0,0.30);
+		height: 90vh;
+	}
+	.cont{
+		flex-direction: column;
+	}
+	.text{
+		display: flex;
+		flex-direction: column;
+		font-size: 74px;
+		text-align: center;
+		justify-content: center;
+		padding: 0px 120px;
+		color: black;
+		overflow: scroll;
+		height: 400px;
+	}
+	body{
+		background-image: url("bg.png");
+	}
+	.search_bar input{
+		/* background-color: red; */
+		font-size: 55px;
+		width: 70%;
+		height: 60px;
+		align-items: center;
+		justify-content: center;
+	}
+	.search_bar button{
+		/* background-color: red; */
+		font-size: 55px;
+		width: 15%;
+		height: 65px;
+		align-items: center;
+		justify-content: center;
+	}
+	.navbar{
+		flex-direction: column;
+		height: auto;
+	}
+	.navbar a{
+		font-size: 45px;
+		display: flex;
+		flex-direction: column;
+	}
+	.search_bar{
+		width: 100%;
+		text-align: left;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.anc{
+		width: 75%;
+	}
+	.sign{
+		background-color: rgba(0, 0, 255, 0.5);
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+	.acont{
+		padding-left: 00%;
+	}
+}
+@media screen and (max-width: 245px) {
+	body{
+		background-image: url("bg.png");
+	}
+	.search_bar input{
+		/* background-color: red; */
+		font-size: 55px;
+		width: 70%;
+		height: 60px;
+		align-items: center;
+		justify-content: center;
+	}
+	.search_bar button{
+		/* background-color: red; */
+		font-size: 55px;
+		width: 15%;
+		height: 65px;
+		align-items: center;
+		justify-content: center;
+	}
+	.navbar{
+		flex-direction: column;
+		height: auto;
+	}
+	.anc a{
+		font-size: 45px;
+		padding-bottom: 12%;
+	}
+	.search_bar{
+		width: 100%;
+		text-align: center;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.anc{
+		width: 75%;
+	}
+}

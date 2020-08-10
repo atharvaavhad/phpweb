@@ -1,0 +1,180 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+body{
+	background-image: url("bg.jpg");
+	background-size: contain;
+}
+.navbar{
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100px;
+	display: flex;
+	position: sticky;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+.anc{
+	/* background-color: red; */
+	position: sticky;
+	top:0%;
+	display: flex;
+	width: 50%;
+}
+.anc a{
+	text-decoration: none;
+	color: white;
+	padding: 5% 5%;
+	font-size: 21px;
+	display: flex;
+}
+.anc a:hover{
+	display: flex;
+	background-color: white;
+	color: darkgray;
+}
+.search_bar{
+	/* background-color: red; */
+	width: 50%;
+	text-align: left;
+	display: flex;
+	justify-content: flex-end;
+}
+.search_bar input{
+	/* background-color: red; */
+	font-size: 50px;
+	width: 50%;
+	height: 60px;
+	align-items: center;
+	justify-content: center;
+}
+.search_bar button{
+	/* background-color: red; */
+	font-size: 50px;
+	width: 15%;
+	height: 65px;
+	align-items: center;
+	justify-content: center;
+}
+.home{
+	background-color: rgba(0,0,0,0.30);
+	height: 84vh;
+}
+.cont{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding: 150px 100px;
+}
+.img{
+	border: 3px solid black;
+	border-radius: 150px;
+	position: relative;
+	left: 230px;
+	top: 30px;
+}
+.text{
+	position: relative;
+	left: 1%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding: 10px 200px;
+	color: white;
+	font-size: 25px;
+}
+.text p{
+	padding: 10px 20px;
+}
+.serv{
+	height: 600px;
+	background-color: rgba(255, 0, 0, 0.5);
+}
+.image2{
+	display: flex;
+	height: auto;
+	background-color: none;
+	justify-content: flex-end;
+}
+.image2 b{
+	color: white;
+	font-size: 100px;
+}
+.image3{
+	display: flex;
+	height: auto;
+	background-color: none;
+	justify-content: flex-start;
+	text-align: left;
+}
+.image3 b{
+	color: white;
+	font-size: 100px;
+}
+.about{
+	font-size: 50px;
+	/* color: white; */
+	text-align: center;
+	background-color: black;
+	padding: 5%;
+	height: 100vh;
+	overflow-y: scroll;
+}
+.mycll{
+	color: rgba(255, 255, 255, 0.9);
+}
+.sign{
+	background-color: rgba(0, 0, 255, 0.5);
+	height: auto;
+	display: flex;
+}
+.sign input{
+	background-color: yellow;
+	font-size: 50px;
+}
+.sign button{
+	background-color: yellow;
+	font-size: 50px;
+	width: 600px;
+}
+.sign button:hover{
+	background-color: blue;
+	font-size: 50px;
+}
+.acont input{
+	background-color: black;
+	color: white;
+	width: 400px;
+}
+.acont button{
+	background-color: black;
+	color: white;
+	width: 400px;
+}
+.acont button:hover{
+	background-color: black;
+	color: red;
+}
+.acont{
+	padding-left: 02%;
+	height: auto;
+	width: 400px;
+}
+.name82{
+	background-color: black;
+	color: white;
+	font-size: 35px;
+	height: auto;
+}
+.onediv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
